@@ -1,0 +1,104 @@
+*, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container-navbar{
+  background-color: rgb(83, 82, 82);
+  height: 100vh;
+}
+
+.frist-name {
+  color: white;
+  font-size: 25px;
+}
+
+.last-name {
+  color: crimson;
+  font-size: 20px;
+  margin-right: 80vh;
+}
+
+.ul-navbar {
+  background-color: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  justify-content: space-between;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+}
+
+.a-back {
+  font-size: 25px;
+  margin: 10px;
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+.a-navbar {
+ text-decoration: none; 
+ color: #eaeaea;
+}
+
+.a-navbar:hover {
+  color: crimson;
+  transition: .1s ease-in-out;
+  transition-delay: .2s;
+}
+
+.a-back:hover {
+  height: 30px;
+  color: crimson;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+  transition-delay: .3s;
+}
+
+.content {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-content {
+  height: 30%;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.h3 {
+  margin: 80px;
+  background-color: crimson;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.sosmed- {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poto {
+  height: 10%;
+  width: 10%;
+}
+
+.poto- {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
